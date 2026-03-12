@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+@layer base{
+    /* p{
+        font-family: "Noto Sans";
+    } */
+}
+
+@layer utilities{
+    body{
+        @apply bg-[#fafaf9]
+    }
+
+    .container{
+        @apply px-4 w-full max-w-6xl mx-auto
+    }
+
+    section{
+        @apply relative py-10
+    }
+
+    .font-sora{
+        font-family: "Noto Sans";
+    }
+
+    .font-rubik{
+        font-family: "Rubik";
+    }
+
+    .font-Playfair{
+        font-family: "Playfair";
+    }
+
+}

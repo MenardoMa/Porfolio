@@ -8,9 +8,9 @@ const Hero = () => {
       <div className='container'>
         {heroInfo.map((info, index) => (
           <div key={index}>
-            <div className='mb-4 text-sm font-medium leading-relaxed text-zinc-500 font-sora flex items-center gap-2'>
+            <div className='mb-4 text-sm font-medium leading-relaxed  flex items-center gap-2'>
                 <span className='w-2.5 h-2.5 block rounded-full bg-emerald-400'></span>
-                <span className='uppercase text-sm'>{info.tag}</span>
+                <span className='uppercase text-sm text-zinc-500  font-sora'>{info.tag}</span>
             </div>
             <div className='grid gap-3 md:gap-6 w-full max-w-2xl'>
                 <h1 className='text-3xl sm:text-4xl md:text-6xl xl:text-7xl font-bold leading-auto font-Playfair'>{info.role}</h1>

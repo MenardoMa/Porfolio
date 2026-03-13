@@ -8,7 +8,7 @@
 
 @layer utilities{
     body{
-        @apply bg-[#fafaf9]
+        @apply bg-[#fafaf9] w-full overflow-x-hidden
     }
 
     .container{

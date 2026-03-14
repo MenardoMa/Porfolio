@@ -15,7 +15,7 @@ const Hero = () => {
             <div className='grid gap-3 md:gap-6 w-full max-w-2xl'>
                 <h1 className='text-3xl sm:text-4xl md:text-6xl xl:text-7xl font-bold leading-auto font-Playfair'>{info.role}</h1>
                 <p className='text-base sm:text-lg sm:leading-normal font-rubik'>{info.bio}</p>
-                <div className='grid gap-4 md:flex'>
+                <div className='grid gap-4 md:flex mt-5 md:mt-0'>
                     <Button label='Contactez-moi' path="#" className="border border-zinc-300 px-5 py-3 rounded-full cursor-pointer font-rubik text-base bg-black text-white" />
                     <Button label='Qui je suis' path="#" className="border border-zinc-300 px-5 py-3 rounded-full cursor-pointer font-rubik text-base" />
                 </div>

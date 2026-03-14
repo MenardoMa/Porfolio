@@ -59,6 +59,7 @@ export const aboutInfo = [
                 "Python",
                 "Django",
                 "Jquery",
+                "Vercel",
             ]
         }
     }

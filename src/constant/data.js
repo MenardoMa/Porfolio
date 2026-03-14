@@ -61,6 +61,29 @@ export const aboutInfo = [
                 "Jquery",
                 "Vercel",
             ]
-        }
+        }, 
+
+        highlights: [
+            {
+                icon: "🎯",
+                title: "Développeur avant tout",
+                description: "Je simplifie des technologies complexes en créant des démonstrations pratiques et du contenu technique utile que les développeurs peuvent réellement appliquer dans leurs projets."
+            },
+            {
+                icon: "🌍",
+                title: "Portée internationale",
+                description: "Je partage mes connaissances et mes projets avec une communauté de développeurs à travers différentes plateformes, afin d’aider les autres à apprendre, progresser et construire de meilleures solutions."
+            },
+            {
+                icon: "🤝",
+                title: "Collaboration professionnelle",
+                description: "J’ai collaboré avec plusieurs entreprises et équipes pour concevoir des solutions numériques, développer des applications performantes et créer des produits technologiques utiles."
+            },
+            {
+                icon: "⚡",
+                title: "Esprit de bâtisseur",
+                description: "Je ne me contente pas de parler de technologie : je construis avec elle. Des projets personnels aux applications réelles pour des clients, je transforme les idées en solutions concrètes."
+            }
+        ]
     }
 ];

@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 
-const CardExperience = ({role, company, period, description, technologies, link, className}) => {
+const CardExperience = ({role, company, period, description, technologies, link, location, className}) => {
 
   return (
     <div className={className}>
@@ -13,7 +13,10 @@ const CardExperience = ({role, company, period, description, technologies, link,
                 <p className='text-xs text-zinc-400 font-rubik font-normal'>{period}</p>
             </div>
             <div>
-                <h2 className='font-medium text-base font-rubik text-zinc-800 mb-3'>{role}</h2>
+                <div className='mb-3'>
+                    <h2 className='font-medium text-base font-rubik text-zinc-800'>{role}</h2>
+                    <p className='text-[13px] text-zinc-400 font-rubik font-normal'>{location}</p>
+                </div>
                 <p className='text-sm text-zinc-900 font-normal font-rubik'>{description}</p>
                 <div className='mt-3 md:mt-4 flex gap-2 flex-wrap'>
                     {

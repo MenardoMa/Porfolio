@@ -28,6 +28,7 @@ const Experiences = () => {
                             description={experience.description}
                             technologies={experience.technologies}
                             link={experience.link}
+                            location={experience.location}
                             className='bg-white border border-zinc-300 bg-white rounded-xl hover:shadow-sm transition-all duration-300' 
                         />
                     ))

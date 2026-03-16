@@ -129,10 +129,12 @@ export const experienceInfo = [
     ],
     technologies: [
       "Django",
-      "React",
       "Laravel",
       "PHP",
-      "React.Js"
+      "React.Js",
+      "CSS",
+      "HTML",
+      "JavaScript"
     ],
     link: ""
   },
@@ -173,7 +175,7 @@ export const experienceInfo = [
       "Participation aux déploiements continus"
     ],
     technologies: [
-      "React",
+      "React.JS",
       "Angular",
       "JavaScript",
       "CSS",

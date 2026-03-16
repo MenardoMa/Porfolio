@@ -2,8 +2,6 @@ import React from 'react'
 
 const Card = ({title, description, icon, className}) => {
     
-    console.log(title)
-
   return (
     <div className={className}>
        <div className='p-4 md:p-6'>

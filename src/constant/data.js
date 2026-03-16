@@ -87,3 +87,71 @@ export const aboutInfo = [
         ]
     }
 ];
+
+export const experienceInfo = [
+    {
+      "company": "Besnode",
+      "location": "Brazzaville, République du Congo",
+      "role": "Développeur Front-end",
+      "type": "Temps plein",
+      "period": "Juin 2025 - Présent",
+      "description": "Développement et maintenance d’interfaces utilisateur modernes et performantes pour des applications web. Mise en place de design systems, composants réutilisables et intégration responsive pour une expérience optimale sur tous les appareils.",
+      "responsibilities": [
+        "Développement d’interfaces utilisateur en HTML, CSS et JavaScript",
+        "Mise en place de design systems et composants réutilisables",
+        "Intégration responsive (mobile, tablette, desktop)",
+        "Compatibilité multi-navigateurs",
+        "Maintenance et correction de bugs",
+        "Amélioration continue des interfaces existantes"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Responsive Design",
+        "Web Standards"
+      ]
+    },
+    {
+      "company": "Optimist Technologies",
+      "location": "Kinshasa",
+      "role": "Développeur Full Stack",
+      "type": "Temps plein",
+      "period": "Septembre 2022 - Décembre 2023",
+      "description": "Participation au développement d’applications web modernes et évolutives, incluant des plateformes e-commerce et des solutions SaaS.",
+      "responsibilities": [
+        "Développement d’applications web avec Laravel et PHP",
+        "Création et optimisation d’API REST",
+        "Participation à des projets e-commerce et SaaS",
+        "Amélioration des performances backend"
+      ],
+      "technologies": [
+        "Laravel",
+        "PHP",
+        "Node.js",
+        "REST API",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Darketing",
+      "location": "Kinshasa",
+      "role": "Développeur Front-end",
+      "type": "Temps plein",
+      "period": "Février 2019 - Août 2022",
+      "description": "Développement d’interfaces web interactives et performantes pour différents projets digitaux.",
+      "responsibilities": [
+        "Développement d’interfaces avec React et Angular",
+        "Création d’interfaces responsive et performantes",
+        "Gestion du code source avec Git",
+        "Participation aux déploiements continus"
+      ],
+      "technologies": [
+        "React",
+        "Angular",
+        "JavaScript",
+        "CSS",
+        "Git"
+      ]
+    }
+]

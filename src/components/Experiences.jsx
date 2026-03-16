@@ -23,8 +23,11 @@ const Experiences = () => {
                         <CardExperience 
                             key={key}
                             role={experience.role}
+                            company={experience.company}
+                            period={experience.period}
                             description={experience.description}
                             technologies={experience.technologies}
+                            link={experience.link}
                             className='bg-white border border-zinc-300 bg-white rounded-xl hover:shadow-sm transition-all duration-300' 
                         />
                     ))

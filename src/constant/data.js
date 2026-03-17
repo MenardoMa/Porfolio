@@ -283,3 +283,52 @@ export const predirectionInfo = [
         tags: "Recommandé pour les créateurs indépendants",
     },
 ];
+
+ export const footerInfo = [
+    sitemap = [
+    {
+        label: "Accueil",
+        href: "#home",
+    },
+    {
+        label: "Qui est Menardo ?",
+        href: "#about",
+    },
+    {
+        label: "Projets",
+        href: "#work",
+    },
+    {
+        label: "avis",
+        href: "#reviews",
+    },
+    {
+        label: "Contact",
+        href: "#contact",
+    },
+    ],
+
+ socials = [
+    {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/me",
+    },
+    {
+        label: "Twitter X",
+        href: "https://x.com/",
+    },
+    {
+        label: "Instagram",
+        href: "https://www.instagram.com/",
+    },
+    {
+        label: "GitHub",
+        href: "https://www.github.com/MenardoMa",
+    },
+    {
+        label: "+243 812799057",
+        href: "tel:+243812799057",
+    },
+]
+
+ ]

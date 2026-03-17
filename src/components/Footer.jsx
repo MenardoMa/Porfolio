@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center justify-center pt-10">
                 <p className="text-zinc-400 text-sm font-rubik up-reveal">
-                    &copy; 2025{" "}
+                    &copy; 2026{" "}
                     <span className="up-reveal">Menardo Madiumba</span>
                 </p>
             </div>

@@ -284,6 +284,7 @@ export const predirectionInfo = [
     },
 ];
 
+
 export const footerInfo = {
   siteLinks: [
         {

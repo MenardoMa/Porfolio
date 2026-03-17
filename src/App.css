@@ -31,6 +31,28 @@
         font-family: "Playfair";
     }
 
+    .btn {
+        @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-2xl font-medium text-sm ring-1 ring-zinc-50/6 ring-inset transition-[background-color];
+    }
+
+    .btn.send {
+        @apply bg-[#f5f4f2] hover:bg-zinc-200/50 active:bg-zinc-200/50 text-zinc-800 w-full max-w-full h-12 rounded-full text-base flex justify-center items-center text-center transition-[background-colors];
+    }
+
+    /* Label */
+
+    .label {
+        @apply block text-zinc-600 text-sm mb-2;
+    }
+
+    .text-field {
+        @apply block outline-none w-full p-3 text-sm bg-[#f5f4f2] rounded-sm ring-1 ring-inset ring-transparent transition-shadow border border-zinc-300 hover:ring-zinc-50/5 focus:ring-sky-400;
+    }
+
+    .text-field::placeholder {
+        @apply text-zinc-400;
+    }
+
     .up-reveal {
         /* @apply translate-y-20 opacity-0; */
     }

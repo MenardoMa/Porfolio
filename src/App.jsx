@@ -6,6 +6,7 @@ import Work from './components/Work'
 import Testimonials from './components/Testimonials'
 import Predirection from './components/Predirection'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Work />
           <Testimonials />
           <Predirection />
+          <Contact />
           <Footer />
         </main>
       </>

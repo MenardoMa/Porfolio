@@ -1,6 +1,7 @@
 import React from 'react'
 import CardExperience from './CardExperience'
 import { experienceInfo } from '../constant/data'
+import Button from './Button'
 
 const Experiences = () => {
   return (
@@ -29,7 +30,7 @@ const Experiences = () => {
                             technologies={experience.technologies}
                             link={experience.link}
                             location={experience.location}
-                            className='bg-white border border-zinc-300 bg-white rounded-xl hover:shadow-sm transition-all duration-300' 
+                            className='bg-white border border-zinc-300 rounded-xl hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300 up-reveal' 
                         />
                     ))
                 }

@@ -108,6 +108,7 @@ export const experienceInfo = [
       "HTML5",
       "CSS3",
       "JavaScript",
+      "Bootstrap",
       "Responsive Design",
       "Web Standards"
     ],
@@ -179,8 +180,34 @@ export const experienceInfo = [
       "Angular",
       "JavaScript",
       "CSS",
-      "Git"
     ],
     link: "https://www.darketing.net/"
   },
+];
+
+export const workInfo = [
+    {
+        title: "Plateforme E-commerce",
+        image: "/images/projects/work_1.png",
+        tags: ["React", "Laravel", "REST API", "TailwindCSS"],
+        link: "https://example.com/ecommerce"
+    },
+    {
+        title: "Application de Gestion Immobilière",
+        image: "/images/projects/work_2.png",
+        tags: ["Laravel", "PHP", "MySQL", "Bootstrap"],
+        link: "https://example.com/real-estate"
+    },
+    {
+        title: "Dashboard Analytics",
+        image: "/images/projects/work_3.png",
+        tags: ["React", "Chart.js", "JavaScript", "API"],
+        link: "https://example.com/dashboard"
+    },
+    {
+        title: "Portfolio Développeur",
+        image: "/images/projects/work_4.png",
+        tags: ["React", "TailwindCSS", "JavaScript", "Vite"],
+        link: "https://example.com/portfolio"
+    }
 ];

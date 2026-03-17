@@ -1,8 +1,10 @@
 import './App.css'
+import Hero from './components/Hero'
 import About from './components/About'
 import Experiences from './components/Experiences'
-import Hero from './components/Hero'
 import Work from './components/Work'
+import Testimonials from './components/Testimonials'
+
 
 function App() {
     return (
@@ -12,6 +14,7 @@ function App() {
           <About />
           <Experiences />
           <Work />
+          <Testimonials />
         </main>
       </>
     )

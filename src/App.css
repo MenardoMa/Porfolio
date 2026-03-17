@@ -16,7 +16,7 @@
     }
 
     section{
-        @apply relative py-10
+        @apply relative py-10 overflow-hidden
     }
 
     .font-sora{

@@ -211,3 +211,54 @@ export const workInfo = [
         link: "https://example.com/portfolio"
     }
 ];
+
+export const testimonialInfo = [
+    {
+        content:
+        "Je n'ai jamais vu quelqu'un livrer aussi vite et avec une qualité aussi incroyable. Son souci du détail et sa créativité étaient incomparables. Le processus a été fluide, efficace et rapide. Je suis absolument ravi du résultat final.",
+        name: "Sophia Ramirez",
+        imgSrc: "/images/projects/people-3.jpg",
+        company: "PixelForge, Web Designer",
+        link: 'https://linkedin.com/in/aaron-aj-eckstein',
+    },
+    {
+        content:
+        "Menardo est un designer talentueux et professionnel, qui livre rapidement sans jamais compromettre la qualité. Il aborde le design avec une approche critique et centrée sur l'utilisateur, créant des solutions qui trouvent un écho réel. Je suis plus que satisfait de son travail.",
+        name: "Ethan Caldwell",
+        imgSrc: "/images/projects/people-3.jpg",
+        company: "NexaWave, Senior Developer",
+        link: 'https://linkedin.com/in/aaron-aj-eckstein',
+    },
+    {
+        content:
+        "J'ai travaillé avec Menardo sur un projet de landing page. Il est très attentif aux détails et très ouvert aux commentaires. Il a rapidement réitéré les designs pour livrer le résultat final.",
+        name: "Liam Bennett",
+        imgSrc: "/images/projects/people-3.jpg",
+        company: "CodeCraft, CTO",
+        link: 'https://linkedin.com/in/aaron-aj-eckstein',
+    },
+    {
+        content:
+        "Nous avons eu le plaisir de collaborer avec Menardo pour le développement de notre application web. Dès le début, il a démontré une compréhension approfondie de nos besoins et a su proposer des solutions adaptées.",
+        name: "Noah Williams",
+        imgSrc: "/images/projects/people-3.jpg",
+        company: "BrightWeb, Tech League",
+        link: 'https://linkedin.com/in/aaron-aj-eckstein',
+    },
+    {
+        content:
+        "Son expertise en technologies front-end et back-end a été déterminante dans la création d'une plateforme à la fois intuitive et performante. Il a respecté les délais tout en garantissant une qualité de code exceptionnelle.",
+        name: "Ava Thompson",
+        imgSrc: "/images/projects/people-3.jpg",
+        company: "TechMosaic, Senior web design",
+        link: 'https://linkedin.com/in/aaron-aj-eckstein',
+    },
+    {
+        content:
+        "Nous recommandons vivement Menardo à toute entreprise à la recherche d'un développeur web full stack talentueux et fiable.",
+        name: "Jonathan",
+        imgSrc: "/images/projects/people-3.jpg",
+        company: "Skyline Digital, DTO",
+        link: 'https://linkedin.com/in/aaron-aj-eckstein',
+    },
+];

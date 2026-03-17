@@ -4,6 +4,7 @@ import About from './components/About'
 import Experiences from './components/Experiences'
 import Work from './components/Work'
 import Testimonials from './components/Testimonials'
+import Predirection from './components/Predirection'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Experiences />
           <Work />
           <Testimonials />
+          <Predirection />
         </main>
       </>
     )

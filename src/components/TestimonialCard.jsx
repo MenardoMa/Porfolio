@@ -4,7 +4,7 @@ const TestimonialCard = ({ content, name, imgSrc, company, link, className }) =>
   return (
     <div  className={className}>
         <p className='text-2xl sm:text-3xl mb-0 leading-5 lg:text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent'>"</p>
-        <p className="text-zinc-700 text-sm font-rubik mb-8 relative">
+        <p className="text-zinc-700 text-sm font-rubik mb-8 relative leading-relaxed">
             {content}
         </p>
         <div className="flex items-center gap-4 mt-auto">

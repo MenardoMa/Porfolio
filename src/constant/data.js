@@ -262,3 +262,24 @@ export const testimonialInfo = [
         link: 'https://linkedin.com/in/aaron-aj-eckstein',
     },
 ];
+
+export const predirectionInfo = [
+    {
+        imgSrc: "images/projects/equipe_2.png",
+        title: "Intégration",
+        desc: "Je peux m'intégrer de manière transparente à votre équipe de développement et apporter des solutions à vos défis de conception et ou de dévoloppement.",
+        tags: "Recommandé pour les créateurs indépendants",
+    },
+    {
+        imgSrc: "images/projects/refonte_1.png",
+        title: "Refonte du produit",
+        desc: "Nous travaillerons ensemble à la refonte de votre produit grâce à une approche centrée sur l'utilisateur qui améliorera l'engagement, la fidélisation et les revenus. Dites adieu à une expérience utilisateur médiocre et bonjour à un produit qui se démarque sur le marché.",
+        tags: "",
+    },
+    {
+        imgSrc: "images/projects/icons8-audit-50.png",
+        title: "Audit UX",
+        desc: "Je peux vous aider à repérer les goulots d'étranglement de votre produit pour libérer son plein potentiel.",
+        tags: "Recommandé pour les créateurs indépendants",
+    },
+];

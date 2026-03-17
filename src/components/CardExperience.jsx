@@ -10,14 +10,14 @@ const CardExperience = ({role, company, period, description, technologies, link,
                 <h2 className='mb-1 font-Playfair font-bold text-black text-base md:text-xl'>
                     <a href={link}>{company}</a>
                 </h2>
-                <p className='text-xs text-zinc-400 font-rubik font-normal'>{period}</p>
+                <p className='text-xs text-zinc-400 font-rubik font-normal leading-relaxed'>{period}</p>
             </div>
             <div>
                 <div className='mb-3'>
-                    <h2 className='font-medium text-base font-rubik text-zinc-800'>{role}</h2>
-                    <p className='text-[13px] text-zinc-400 font-rubik font-normal'>{location}</p>
+                    <h2 className='font-medium text-base font-rubik text-zinc-800 leading-relaxed'>{role}</h2>
+                    <p className='text-[13px] text-zinc-400 font-rubik font-normal leading-relaxed'>{location}</p>
                 </div>
-                <p className='text-sm text-zinc-900 font-normal font-rubik'>{description}</p>
+                <p className='text-sm text-zinc-900 font-normal font-rubik leading-relaxed'>{description}</p>
                 <div className='mt-3 md:mt-4 flex gap-2 flex-wrap'>
                     {
                         technologies.map((technologie, key) => (

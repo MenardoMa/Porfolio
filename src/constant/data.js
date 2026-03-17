@@ -284,51 +284,54 @@ export const predirectionInfo = [
     },
 ];
 
- export const footerInfo = [
-    sitemap = [
-    {
-        label: "Accueil",
-        href: "#home",
-    },
-    {
-        label: "Qui est Menardo ?",
-        href: "#about",
-    },
-    {
-        label: "Projets",
-        href: "#work",
-    },
-    {
-        label: "avis",
-        href: "#reviews",
-    },
-    {
-        label: "Contact",
-        href: "#contact",
-    },
-    ],
+export const footerInfo = {
+  siteLinks: [
+        {
+            label: "Accueil",
+            href: "#home",
+        },
+        {
+            label: "Qui je suis ?",
+            href: "#about",
+        },
+        {
+            label: "Où j’ai travaillé",
+            href: "#experience",
+        },
+        {
+            label: "Projets",
+            href: "#work",
+        },
+        {
+            label: "Temoignages",
+            href: "#testimonial",
+        },
+        {
+            label: "Comment puis-je t'aider ?",
+            href: "#help",
+        },
+  ],
 
- socials = [
-    {
-        label: "LinkedIn",
-        href: "https://www.linkedin.com/in/me",
-    },
-    {
-        label: "Twitter X",
-        href: "https://x.com/",
-    },
-    {
-        label: "Instagram",
-        href: "https://www.instagram.com/",
-    },
-    {
-        label: "GitHub",
-        href: "https://www.github.com/MenardoMa",
-    },
-    {
-        label: "+243 812799057",
-        href: "tel:+243812799057",
-    },
-]
-
- ]
+  socials: [
+        {
+            label: "LinkedIn",
+            href: "https://www.linkedin.com/in/me",
+        },
+        {
+            label: "Twitter X",
+            href: "https://x.com/",
+        },
+        {
+            label: "Instagram",
+            href: "https://www.instagram.com/",
+        },
+        {
+            label: "GitHub",
+            href: "https://www.github.com/MenardoMa",
+        },
+        {
+            label: "+243 812799057",
+            href: "tel:+243812799057",
+        },
+  ]
+};

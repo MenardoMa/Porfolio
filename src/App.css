@@ -31,4 +31,8 @@
         font-family: "Playfair";
     }
 
+    .up-reveal {
+        /* @apply translate-y-20 opacity-0; */
+    }
+
 }

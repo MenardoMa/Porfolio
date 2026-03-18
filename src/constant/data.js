@@ -331,6 +331,10 @@ export const footerInfo = {
             href: "https://www.github.com/MenardoMa",
         },
         {
+            label: "Email",
+            href: "mailto:menardomadiumba@gmail.com",
+        },
+        {
             label: "+243 812799057",
             href: "tel:+243812799057",
         },

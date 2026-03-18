@@ -93,6 +93,7 @@ const socialLinksInfo = [
             {
                 socialLinksInfo.map(({ href, icon }, key) => (
                     <a 
+                        target='_blank'
                         key={key}
                         href={href} 
                         className='border border-zinc-300/50 bg-zinc-100/50 hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 w-10 h-10 grid place-items-center rounded-lg transition-[background-color,colors] up-reveal'

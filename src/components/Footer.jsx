@@ -9,10 +9,12 @@ const Footer = () => {
             <div className="lg:grid lg:grid-cols-2">
                 <div className="mb-10">
                     <h2 className="text-3xl font-semibold leading-tight lg:text-[50px] lg:leading-[1.15] mb-8 lg:max-w-[13ch] up-reveal font-Playfair">Démarrons votre projet ensemble</h2>
-                    <Button
-                        label="Démarrer un project"
-                        className="font-rubik bg-[#f5f4f2] cursor-pointer text-black text-sm border border-zinc-200 px-4 py-3 font-normal rounded-full flex items-center justify-center hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 up-reveal"
-                    />
+                    <a
+                        href='mailto:menardomadiumba@gmail.com'
+                        className="w-max font-rubik bg-[#f5f4f2] cursor-pointer text-black text-sm border border-zinc-200 px-4 py-3 font-normal rounded-full flex items-center justify-center hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 up-reveal"
+                    >
+                        Démarrer un project
+                    </a>
                 </div>
                 <div className="grid grid-cols-2 gap-4 lg:pl-20">
                     <div className='relative'>

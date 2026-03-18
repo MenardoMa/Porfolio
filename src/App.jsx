@@ -7,12 +7,14 @@ import Testimonials from './components/Testimonials'
 import Predirection from './components/Predirection'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import Navbar from './components/Navbar'
 
 
 function App() {
     return (
       <>
-        <main>
+        <main className='relative w-screen min-h-screen overflow-x-auto'>
+          <Navbar /> 
           <Hero />
           <About />
           <Experiences />

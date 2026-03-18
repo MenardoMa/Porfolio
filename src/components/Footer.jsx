@@ -37,6 +37,7 @@ const Footer = () => {
                                 footerInfo.socials.map(({label, href}, key) => (
                                     <li key={key}>
                                         <a 
+                                            target='_blank'
                                             href={href}
                                             className='font-rubik block text-sm text-zinc-500 py-1 transition-colors hover:text-zinc-400 up-reveal up-reveal'
                                         >{label}</a>

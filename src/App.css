@@ -1,9 +1,7 @@
 @import "tailwindcss";
 
-@layer base{
-    /* p{
-        font-family: "Noto Sans";
-    } */
+html {
+  scroll-behavior: smooth;
 }
 
 @layer utilities{

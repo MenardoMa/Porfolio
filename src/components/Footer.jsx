@@ -5,7 +5,7 @@ import { footerInfo } from '../constant/data'
 const Footer = () => {
   return (
     <section>
-        <div className='container'>
+        <div className='container mt-10'>
             <div className="lg:grid lg:grid-cols-2">
                 <div className="mb-10">
                     <h2 className="text-3xl font-semibold leading-tight lg:text-[50px] lg:leading-[1.15] mb-8 lg:max-w-[13ch] up-reveal font-Playfair">Démarrons votre projet ensemble</h2>

@@ -4,7 +4,7 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <section>
+    <section id='home'>
       <div className='container'>
         {heroInfo.map((info, index) => (
           <div key={index}>

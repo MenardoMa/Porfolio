@@ -4,7 +4,7 @@ import TestimonialCard from './TestimonialCard'
 
 const Testimonials = () => {
   return (
-    <section>
+    <section id='testimonial'>
         <div className='container'>
             <h2 className='text-zinc-700 font-medium font-Playfair text-2xl md:text-3xl'>Temoignages de clients</h2>
             <div className='w-full max-w-[750px] xl:max-w-[800px] my-2'>

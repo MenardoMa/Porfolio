@@ -5,7 +5,7 @@ import WorkCard from './WorkCard'
 
 const Work = () => {
   return (
-    <section>
+    <section id='work'>
         <div className='container'>
             <div className='mb-4'>
                 <span className='uppercase text-sm text-zinc-500 font-normal font-rubik'>Travail codé à la main</span>

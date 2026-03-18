@@ -5,7 +5,7 @@ import Card from './Card'
 
 const About = () => {
   return (
-    <section>
+    <section id='about'>
         <div className='container'>
             <div className='mb-4'>
                 <span className='uppercase text-sm text-zinc-500 font-normal font-rubik'>Qui je suis</span>

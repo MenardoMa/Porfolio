@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Experiences = () => {
   return (
-    <section>
+    <section id='experience'>
         <div className='container'>
             <div className='mb-4'>
                 <span className='uppercase text-sm text-zinc-500 font-normal font-rubik'>Où j’ai travaillé</span>

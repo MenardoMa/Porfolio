@@ -188,27 +188,27 @@ export const experienceInfo = [
 
 export const workInfo = [
     {
-        title: "Plateforme E-commerce",
+        title: "Portfolio Design",
         image: "/images/projects/work_1.png",
-        tags: ["React", "Laravel", "REST API", "TailwindCSS"],
+        tags: ["HTML", "CSS", "Design", "Responsive Design"],
         link: "https://example.com/ecommerce"
     },
     {
-        title: "Application de Gestion Immobilière",
+        title: "Plateforme E-commerce",
         image: "/images/projects/work_2.png",
         tags: ["Laravel", "PHP", "MySQL", "Bootstrap"],
         link: "https://example.com/real-estate"
     },
     {
-        title: "Dashboard Analytics",
+        title: "Landing Page Design",
         image: "/images/projects/work_3.png",
-        tags: ["React", "Chart.js", "JavaScript", "API"],
+        tags: ["HTML", "CSS", "JavaScript"],
         link: "https://example.com/dashboard"
     },
     {
-        title: "Portfolio Développeur",
+        title: "Landing Page Design SASS",
         image: "/images/projects/work_4.png",
-        tags: ["React", "TailwindCSS", "JavaScript", "Vite"],
+        tags: ["React", "TailwindCSS","Lucide","gsap", "Vite"],
         link: "https://example.com/portfolio"
     }
 ];

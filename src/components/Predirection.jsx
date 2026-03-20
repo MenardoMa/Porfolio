@@ -22,7 +22,7 @@ const Predirection = () => {
                                 title={title}
                                 desc={desc}
                                 tags={tags}
-                                className='w-full relative rounded-xl border border-zinc-300/50 bg-zinc-100/50 hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors up-reveal flex flex-col'
+                                className='w-full relative rounded-xl border border-zinc-300/50 bg-zinc-100/50 hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors flex flex-col reveal-up'
                             />
                         ))
                     }

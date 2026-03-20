@@ -9,17 +9,17 @@ const Footer = () => {
         <div className='container mt-10'>
             <div className="lg:grid lg:grid-cols-2">
                 <div className="mb-10">
-                    <h2 className="text-3xl font-semibold leading-tight lg:text-[50px] lg:leading-[1.15] mb-8 lg:max-w-[13ch] up-reveal font-Playfair">Démarrons votre projet ensemble</h2>
+                    <h2 className="text-3xl font-semibold leading-tight lg:text-[50px] lg:leading-[1.15] mb-8 lg:max-w-[13ch] font-Playfair">Démarrons votre projet ensemble</h2>
                     <a
                         href='mailto:menardomadiumba@gmail.com'
-                        className="w-max font-rubik bg-[#f5f4f2] cursor-pointer text-black text-sm border border-zinc-200 px-4 py-3 font-normal rounded-full flex items-center justify-center hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 up-reveal"
+                        className="w-max font-rubik bg-[#f5f4f2] cursor-pointer text-black text-sm border border-zinc-200 px-4 py-3 font-normal rounded-full flex items-center justify-center hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5"
                     >
                         Démarrer un project
                     </a>
                 </div>
                 <div className="grid grid-cols-2 gap-4 lg:pl-20">
                     <div className='relative'>
-                        <p className="mb-2 up-reveal font-rubik text-zinc-800">Liens</p>
+                        <p className="mb-2 font-rubik text-zinc-800 reveal-up">Liens</p>
                         <ul>
                             {
                                 [
@@ -38,7 +38,7 @@ const Footer = () => {
                                                 // smooth
                                                 // offset={0}
                                                 // duration={900}
-                                                className='cursor-pointer capitalize font-rubik block text-sm text-zinc-500 py-1 transition-colors hover:text-zinc-400 up-reveal up-reveal'
+                                                className='cursor-pointer capitalize font-rubik block text-sm text-zinc-500 py-1 transition-colors hover:text-zinc-400'
                                             >
                                                 {section}
                                             </Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='relative'>
-                        <p className="mb-2 up-reveal font-rubik text-zinc-800">Social</p>
+                        <p className="mb-2 font-rubik text-zinc-800">Social</p>
                         <ul>
                             {
                                 footerInfo.socials.map(({label, href}, key) => (
@@ -56,7 +56,7 @@ const Footer = () => {
                                         <a 
                                             target='_blank'
                                             href={href}
-                                            className='font-rubik block text-sm text-zinc-500 py-1 transition-colors hover:text-zinc-400 up-reveal up-reveal'
+                                            className='font-rubik block text-sm text-zinc-500 py-1 transition-colors hover:text-zinc-400 reveal-up'
                                         >{label}</a>
                                     </li>
                                 ))
@@ -66,9 +66,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center pt-10">
-                <p className="text-zinc-400 text-sm font-rubik up-reveal">
+                <p className="text-zinc-400 text-sm font-rubik reveal-up">
                     &copy; 2026{" "}
-                    <span className="up-reveal">Menardo Madiumba</span>
+                    <span className="reveal-up">Menardo Madiumba</span>
                 </p>
             </div>
         </div>

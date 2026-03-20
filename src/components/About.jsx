@@ -8,13 +8,13 @@ const About = () => {
     <section id='apropos'>
         <div className='container'>
             <div className='mb-4'>
-                <span className='uppercase text-sm text-zinc-500 font-normal font-rubik'>Qui je suis</span>
+                <span className='uppercase text-sm text-zinc-500 font-normal font-rubik reveal-up'>Qui je suis</span>
             </div>
             <div>
                 {
                     aboutInfo.map((info, keys) => (
                         <div key={keys}>
-                            <div>
+                            <div className='relative reveal-up'>
                                 <div className='mt-4 sm:mt-6 md:mt-8'>
                                     <p className='text-sm leading-normal md:text-base xl:text-lg xl:leading-relaxed text-zinc-600 font-normal font-rubik'>{info.aboutMe.bio}</p>
                                 </div>
@@ -34,7 +34,7 @@ const About = () => {
                                             icon={highlight.icon} 
                                             title={highlight.title} 
                                             description={highlight.description}
-                                            className='border border-zinc-300 bg-white rounded-xl hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300 up-reveal'
+                                            className='border border-zinc-300 bg-white rounded-xl hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300 reveal-up'
                                         />
                                     ))
                                 }

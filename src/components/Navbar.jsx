@@ -113,9 +113,10 @@ const Navbar = () => {
                           <Link 
                             to={`${section}`}
                             // smooth
-                            // offset={0}
+                            offset={0}
                             // duration={900}
                             className='transition-all duration-300 cursor-pointer hover:text-white uppercase'
+                            // onClick={() => toggleMenu()}
                         >
                           {section}
                         </Link>

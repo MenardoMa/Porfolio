@@ -82,14 +82,14 @@ const socialLinksInfo = [
     <section id="contact" className="section">
       <div className="container lg:grid lg:grid-cols-2 lg:items-stretch mt-10">
         <div className="lg:flex lg:flex-col mb-8 lg:mb-0">
-          <h2 className="text-3xl font-semibold leading-tight lg:text-[50px] lg:leading-[1.15] lg:max-w-[15ch] up-reveal font-Playfair">
+          <h2 className="text-3xl font-semibold leading-tight lg:text-[50px] lg:leading-[1.15] lg:max-w-[15ch] font-Playfair reveal-up">
             Contact moi pour une collaboration
           </h2>
-          <p className="mb-5 text-zinc-400 max-w-[50ch] lg:max-w-[45ch] font-rubik up-reveal">
+          <p className="mb-5 text-zinc-400 max-w-[50ch] lg:max-w-[45ch] font-rubik reveal-up">
             Contact moi dès aujourd'hui pour discuter des besoins de votre
             projet et commencer à collaborer sur quelque chose d'extraordinaire.
           </p>
-          <div className="flex items-center gap-2 mt-auto">
+          <div className="flex items-center gap-2 mt-auto reveal-up">
             {
                 socialLinksInfo.map(({ href, icon }, key) => (
                     <a 
@@ -107,11 +107,11 @@ const socialLinksInfo = [
         <form
           action="https://getform.io/f/avrykyea"
           method="POST"
-          className="xl:pl-10 2xl:pl-20"
+          className="xl:pl-10 2xl:pl-20 reveal-up"
         >
           <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
             <div className="mb-4">
-              <label htmlFor="name" className="font-rubik font-normal label up-reveal">
+              <label htmlFor="name" className="font-rubik font-normal label">
                 Nom
               </label>
               <input

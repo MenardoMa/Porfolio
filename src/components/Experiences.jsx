@@ -8,10 +8,10 @@ const Experiences = () => {
     <section id='expérience'>
         <div className='container'>
             <div className='mb-4'>
-                <span className='uppercase text-sm text-zinc-500 font-normal font-rubik'>Où j’ai travaillé</span>
+                <span className='uppercase text-sm text-zinc-500 font-normal font-rubik reveal-up'>Où j’ai travaillé</span>
             </div>
             <h2 className='text-zinc-700 font-medium font-Playfair text-2xl md:text-3xl'>Expérience Professionnelle</h2>
-            <div className='w-full max-w-[750px] xl:max-w-[800px] my-2'>
+            <div className='w-full max-w-[750px] xl:max-w-[800px] my-2 reveal-up'>
                 <p className='text-sm md:text-base text-zinc-500 font-normal font-rubik'>
                     Au cours de mon parcours, j’ai travaillé avec plusieurs entreprises et équipes technologiques pour
                     concevoir des solutions innovantes, développer des produits performants et accompagner leur adoption
@@ -30,7 +30,7 @@ const Experiences = () => {
                             technologies={experience.technologies}
                             link={experience.link}
                             location={experience.location}
-                            className='bg-white border border-zinc-300 rounded-xl hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300 up-reveal' 
+                            className='bg-white border border-zinc-300 rounded-xl hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300 reveal-up' 
                         />
                     ))
                 }

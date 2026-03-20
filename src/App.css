@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.reveal-up{
+    @apply translate-y-20 opacity-0
+}
+
 @layer utilities{
     body{
         @apply bg-[#fafaf9] w-full overflow-x-hidden

@@ -8,14 +8,14 @@ const Hero = () => {
       <div className='container'>
         {heroInfo.map((info, index) => (
           <div key={index}>
-            <div className='mb-4 text-sm font-medium leading-relaxed  flex items-center gap-2'>
+            <div className='mb-4 text-sm font-medium leading-relaxed  flex items-center gap-2 reveal-up'>
                 <span className='w-2.5 h-2.5 block rounded-full bg-emerald-400'></span>
                 <span className='uppercase text-sm text-zinc-500  font-sora'>{info.tag}</span>
             </div>
             <div className='grid gap-3 md:gap-6 w-full max-w-2xl'>
-                <h1 className='text-3xl sm:text-4xl md:text-6xl xl:text-7xl font-bold leading-auto font-Playfair'>{info.role}</h1>
-                <p className='text-base sm:text-lg sm:leading-normal font-rubik'>{info.bio}</p>
-                <div className='grid gap-4 md:flex mt-5 md:mt-0'>
+                <h1 className='text-3xl sm:text-4xl md:text-6xl xl:text-7xl font-bold leading-auto font-Playfair reveal-up'>{info.role}</h1>
+                <p className='text-base sm:text-lg sm:leading-normal font-rubik reveal-up'>{info.bio}</p>
+                <div className='grid gap-4 md:flex mt-5 md:mt-0 reveal-up'>
                     <Button 
                         label='Contactez-moi' 
                         path="#" 
@@ -25,7 +25,7 @@ const Hero = () => {
                         path="#" 
                         className="border border-zinc-300 px-5 py-3 rounded-full cursor-pointer font-rubik text-base hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300" />
                 </div>
-                <div className='my-5 grid gap-4 md:flex md:items-center md:gap-6'>
+                <div className='my-5 grid gap-4 md:flex md:items-center md:gap-6 reveal-up'>
                     {info.stats.map((stat, keys) => (
                         <div key={keys}>
                             <h3 className='text-zinc-700 text-lg font-Playfair font-bold'>{stat.title}</h3>

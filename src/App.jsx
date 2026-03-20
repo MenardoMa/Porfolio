@@ -8,11 +8,13 @@ import Predirection from './components/Predirection'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
+import { ReactLenis } from 'lenis/react'
 
 
 function App() {
     return (
       <>
+       <ReactLenis root />
         <main className='relative w-screen min-h-screen overflow-x-auto'>
           <Navbar /> 
           <Hero />

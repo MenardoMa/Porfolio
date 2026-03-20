@@ -180,6 +180,7 @@ export const experienceInfo = [
       "Angular",
       "JavaScript",
       "CSS",
+      "SASS"
     ],
     link: "https://www.darketing.net/"
   },

@@ -290,32 +290,26 @@ export const footerInfo = {
         {
             label: "Accueil",
             href: "#home",
-            index: 0,
         },
         {
             label: "Qui je suis ?",
             href: "#about",
-            index: 1,
         },
         {
             label: "Où j’ai travaillé",
             href: "#experience",
-            index: 2,
         },
         {
             label: "Projets",
             href: "#work",
-            index: 3,
         },
         {
             label: "Temoignages",
             href: "#testimonial",
-            index: 4,
         },
         {
             label: "Comment puis-je t'aider ?",
             href: "#help",
-            index: 5,
         },
   ],
 

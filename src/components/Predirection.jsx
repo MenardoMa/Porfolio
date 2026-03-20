@@ -4,7 +4,7 @@ import { predirectionInfo } from '../constant/data'
 
 const Predirection = () => {
   return (
-    <section id='help'>
+    <section id='aide'>
         <div className='container'>
             <div className='w-full max-w-3xl mx-auto'>
                 <h2 className='text-zinc-700 font-medium font-Playfair text-2xl md:text-3xl'>Comment puis-je t'aider ?</h2>

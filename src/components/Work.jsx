@@ -5,7 +5,7 @@ import WorkCard from './WorkCard'
 
 const Work = () => {
   return (
-    <section id='work'>
+    <section id='projets'>
         <div className='container'>
             <div className='mb-4'>
                 <span className='uppercase text-sm text-zinc-500 font-normal font-rubik'>Travail codé à la main</span>
@@ -27,7 +27,7 @@ const Work = () => {
                             title={work.title}
                             tags={work.tags}
                             link={work.link}
-                            className='relative p-4 rounded-xl border border-zinc-300/50 bg-zinc-100/50 hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors up-reveal'
+                            className='relative p-4 rounded-xl border border-zinc-300/50 bg-zinc-100/50 hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-all duration-300 up-reveal'
                         />
                     ))
                 }

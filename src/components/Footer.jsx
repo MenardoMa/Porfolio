@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import { footerInfo } from '../constant/data'
+import { Link } from 'react-scroll';
 
 const Footer = () => {
   return (
@@ -21,14 +22,28 @@ const Footer = () => {
                         <p className="mb-2 up-reveal font-rubik text-zinc-800">Liens</p>
                         <ul>
                             {
-                                footerInfo.siteLinks.map(({label, href}, key) => (
-                                    <li key={key}>
-                                        <a 
-                                            href={href}
-                                            className='font-rubik block text-sm text-zinc-500 py-1 transition-colors hover:text-zinc-400 up-reveal up-reveal'
-                                        >{label}</a>
-                                    </li>
-                                ))
+                                [
+                                    "accueil",
+                                    "apropos",
+                                    "expérience",
+                                    "projets",
+                                    "témoignages",
+                                    "aide",
+                                    "contact"
+                                        ].map(
+                                        (section, index) => (
+                                            <Link
+                                                key={index} 
+                                                to={`${section}`}
+                                                // smooth
+                                                // offset={0}
+                                                // duration={900}
+                                                className='cursor-pointer capitalize font-rubik block text-sm text-zinc-500 py-1 transition-colors hover:text-zinc-400 up-reveal up-reveal'
+                                            >
+                                                {section}
+                                            </Link>
+                                        )
+                                )
                             }
                         </ul>
                     </div>

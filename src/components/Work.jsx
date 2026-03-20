@@ -33,9 +33,9 @@ const Work = () => {
                 }
             </div>
             <Button
-                label='Voir la liste complète reveal-up'
+                label='Voir la liste complète '
                 path="http://localhost:5173/"
-                className='bg-[#f5f4f2] cursor-pointer mx-auto mt-8 md:mt-10 text-black text-sm font-rubik border border-zinc-200 px-4 py-3 font-normal rounded-full flex items-center justify-center hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5'
+                className='bg-[#f5f4f2] cursor-pointer mx-auto mt-8 md:mt-10 text-black text-sm font-rubik border border-zinc-200 px-4 py-3 font-normal rounded-full flex items-center justify-center hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 reveal-up'
             />
         </div>
     </section>

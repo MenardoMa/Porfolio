@@ -1,11 +1,14 @@
 import React from 'react'
 
 const Button = ({label, path, className}) => {
-  return (
-    <button className={className}>
-      {label}
-    </button>
-  )
+
+  if (path !== "#" && path !== undefined) {
+    return <a href={path} className={className}>{label}</a>;
+  }
+
+  return <button className={className}>{label}</button>;
+
+
 }
 
 export default Button

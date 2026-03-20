@@ -18,11 +18,12 @@ const Hero = () => {
                 <div className='grid gap-4 md:flex mt-5 md:mt-0 reveal-up'>
                     <Button 
                         label='Contactez-moi' 
-                        path="#" 
-                        className="border border-zinc-300 px-5 py-3 rounded-full cursor-pointer font-rubik text-base bg-black text-white hover:bg-zinc-600 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300" />
+                        path="mailto:menardomadiumba@gmail.com" 
+                        className="border border-zinc-300 px-5 py-3 rounded-full cursor-pointer font-rubik text-base bg-black text-white hover:bg-zinc-600 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300" 
+                    />
                     <Button 
                         label='Qui je suis' 
-                        path="#" 
+                        path="#apropos" 
                         className="border border-zinc-300 px-5 py-3 rounded-full cursor-pointer font-rubik text-base hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-colors duration-300" />
                 </div>
                 <div className='my-5 grid gap-4 md:flex md:items-center md:gap-6 reveal-up'>

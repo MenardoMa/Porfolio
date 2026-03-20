@@ -153,7 +153,7 @@ const Navbar = () => {
       <div 
           onClick={toggleMenu}
           style={showBurger ? {clipPath: "circle(50% at 50% 50%)"} : {clipPath: "circle(0% at 50% 50%)"}}
-          className='fixed z-50 flex flex-col items-center justify-center gap-1 transition-all duration-300 bg-black rounded-full cursor-pointer w-12 h-12 md:w-20 md:h-20 top-4 right-5 md:right-10'>
+          className='fixed z-50 flex flex-col items-center justify-center gap-1 transition-all duration-300 bg-black rounded-full cursor-pointer w-12 h-12 md:w-20 md:h-20 top-4 md:top-5 right-5 md:right-10'>
           <span ref={topLineRef} className='block bg-white rounded-full w-7 md:w-8 h-0.5 origin-center'></span>
           <span ref={bottomLineRef} className='block bg-white rounded-full w-7 md:w-8 h-0.5 origin-center'></span>
       </div>

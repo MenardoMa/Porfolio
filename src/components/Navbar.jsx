@@ -96,8 +96,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav ref={navRef} className='fixed z-50 flex flex-col justify-between w-full h-full px-10 uppercase bg-black text-white/80 py-28 gap-y-10 m:w-1/2 md:left-1/2'>
-        <div className='flex flex-col text-3xl md:text-5xl font-normal lg:gap-y-4 gap-y-3 font-rubik'>
+      <nav ref={navRef} className='fixed z-50 flex flex-col justify-start xl:justify-between w-full h-full px-10 uppercase bg-black text-white/80 py-10 lg:py-12 gap-y-5 m:w-1/2 md:left-1/2'>
+        <div className='flex flex-col text-3xl md:text-4xl font-normal lg:gap-y-4 gap-y-3 xl:text-5xl font-rubik'>
               {
                   [
                     "accueil",
@@ -125,20 +125,20 @@ const Navbar = () => {
                   )
               }
         </div> 
-        <div className='flex flex-col flex-wrap justify-between gap-8 md:flex-row'>
+        <div className='grid gap-2'>
           <div className='font-light'>
-              <p className='font-rubik text-white/50 tracking-wide'>E-mail</p>
-              <p className='font-rubik lowercase'>Menardomadiumba@gmail.com</p>
+              <p className='font-rubik text-sm text-white/50 tracking-wide'>E-mail</p>
+              <a href='' className='font-rubik text-xs uppercase hover:text-white/50'>Menardomadiumba@gmail.com</a>
           </div>
           <div className='font-light'>
-              <p className='font-rubik text-white/50 tracking-wide'>RESEAU SOCIAUX</p>
-              <div className='flex flex-col flex-wrap md:flex-row gap-x-2'>
+              <p className='font-rubik text-sm text-white/50 tracking-wide'>RESEAU SOCIAUX</p>
+              <div className='flex flex-col gap-x-2'>
                   {
                       footerInfo.socials.map((social, index) => (
                         <a
                           key={index}
                           href={social.href}
-                          className='font-rubik text-sm leading-loose tracking-widest uppercase font-normal hover:text-white/50 transition-all duration-300'
+                          className='font-rubik text-xs leading-loose tracking-widest uppercase font-normal hover:text-white/50 transition-all duration-300'
                         >
                             {'{ '}
                             {social.label}

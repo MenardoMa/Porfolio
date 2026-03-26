@@ -97,7 +97,7 @@ const Navbar = () => {
   return (
     <>
       <nav ref={navRef} className='fixed z-50 flex flex-col justify-start xl:justify-between w-full h-full px-10 uppercase bg-black text-white/80 py-10 lg:py-12 gap-y-5 m:w-1/2 md:left-1/2'>
-        <div className='flex flex-col text-3xl md:text-4xl font-normal lg:gap-y-4 gap-y-3 xl:text-5xl font-rubik'>
+        <div className='flex flex-col text-3xl md:text-4xl font-normal lg:gap-y-4 2xl:gap-y-6 gap-y-3 xl:text-5xl font-rubik'>
               {
                   [
                     "accueil",

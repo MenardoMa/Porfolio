@@ -116,7 +116,7 @@ const Navbar = () => {
                             offset={0}
                             // duration={900}
                             className='transition-all duration-300 cursor-pointer hover:text-white uppercase'
-                            // onClick={() => toggleMenu()}
+                            onClick={() => toggleMenu()}
                         >
                           {section}
                         </Link>

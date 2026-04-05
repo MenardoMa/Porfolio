@@ -25,6 +25,7 @@ const Work = () => {
                             key={key}
                             image={work.image}
                             title={work.title}
+                            category={work.category}
                             tags={work.tags}
                             link={work.link}
                             className='relative p-4 rounded-xl border border-zinc-300/50 bg-zinc-100/50 hover:bg-zinc-200/50 active:bg-zinc-200/50 ring-1 ring-inset ring-zinc-50/5 transition-all duration-300 reveal-up'

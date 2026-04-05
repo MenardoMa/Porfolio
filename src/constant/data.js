@@ -191,24 +191,28 @@ export const workInfo = [
         title: "Portfolio Design",
         image: "/images/projects/work_1.png",
         tags: ["HTML", "CSS", "Design", "Responsive Design"],
+        category: "Frontend",
         link: "https://example.com/ecommerce"
     },
     {
         title: "Plateforme E-commerce",
         image: "/images/projects/work_2.png",
         tags: ["Laravel", "PHP", "MySQL", "Bootstrap"],
+        category: "Fullstack",
         link: "https://example.com/real-estate"
     },
     {
         title: "Landing Page Design",
         image: "/images/projects/work_3.png",
         tags: ["HTML", "CSS", "JavaScript"],
+        category: "Frontend",
         link: "https://example.com/dashboard"
     },
     {
         title: "Landing Page Design SASS",
         image: "/images/projects/work_4.png",
-        tags: ["React", "TailwindCSS","Lucide","gsap", "Vite"],
+        tags: ["React", "TailwindCSS", "Lucide", "gsap", "Vite"],
+        category: "Frontend",
         link: "https://example.com/portfolio"
     }
 ];
